@@ -14,7 +14,7 @@ Este é um site de e-commerce para pet shop criado como parte da Fase 2 da disci
 
 ### Execução
 
-Você pode visualiar o site clicando [Aqui]{teste}
+Você pode visualiar o site clicando {[Aqui](https://sthefaniecorrea.github.io/PetSHOP/)}
 
 Clone o repositório:
 
