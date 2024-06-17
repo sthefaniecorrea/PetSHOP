@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <nav>
+        <a href="#" class="logo">
+          <img src="assets/logo-cat-and-dog.png" alt="Logo" />Pet<strong
+            >SHOP</strong
+          >
+        </a>
+        <ul>
+          <li><a href="index.html">Página Inicial</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropbtn" tabindex="0">Produtos</a>
+            <div class="dropdown-content">
+              <a href="produtos1.html">Ração Úmida</a>
+              <a href="produtos2.html">Ração Seca</a>
+            </div>
+          </li>
+          <li><a href="serviços.html">Serviços</a></li>
+          <li class="button"><a href="cadastro.html">Cadastre-se!</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="cadastro">
+      <div class="container">
+        <h1>Cadastre-se</h1>
+        <form action="">
+          <div class="form-group">
+            <label for="nome">Nome (do pet)</label>
+            <input type="text" id="nome_pet" name="nome_pet" required />
+          </div>
+          <div class="form-group">
+            <label for="sobrenome">Raça</label>
+            <input type="text" id="raça" name="raça" required />
+          </div>
+          <div class="form-group">
+            <label for="temperamento">Temperamento</label>
+            <select id="temperamento" name="temperamento" required>
+              <option value="">Selecione</option>
+              <option value="calmo">Calmo</option>
+              <option value="agressivo">Agressivo</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="tipo_pet">Tipo</label>
+            <select id="tipo_pet" name="tipo_pet" required>
+              <option value="">Selecione</option>
+              <option value="gato">Gato</option>
+              <option value="cachorro">Cachorro</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="serviço">Serviço</label>
+            <select id="serviço" name="serviço" required>
+              <option value="">Selecione</option>
+              <option value="banho">Banho</option>
+              <option value="tosa">Tosa</option>
+              <option value="banho_e_tosa">Banho e tosa</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="data_agendamento">Data de Agendamento</label>
+            <input
+              type="date"
+              id="data_agendamento"
+              name="data_agendamento"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <input type="checkbox" id="telebusca" name="telebusca" />
+            <label for="telebusca">Telebusca?</label>
+          </div>
+          <button type="submit" class="button">Cadastrar</button>
+        </form>
+      </div>
+    </main>
+
+    <footer>
+      <hr />
+      <p><strong>CNPJ:</strong> 20.975.957/0001-96</p>
+      <p><strong>Contatos:</strong> (054) 98159-2249 — comercial@petshop.com</p>
+      <p>
+        <strong>Endereço:</strong> R. Gaston Dalcanalle, 638 - Centro, Caxias do
+        Sul, RS, 95098-99
+      </p>
+      <p>
+        <strong>Autor(a) do site:</strong> Sthefanie Corrêa —
+        sthefanie.a.correa@gmail.com —
+        <a href="https://github.com/sthefaniecorrea">GitHub</a>
+      </p>
+      <p>
+        Copyright 2024 © Todos os direitos reservados à Pet<strong>SHOP</strong>
+      </p>
+    </footer>
+  </body>
+</html>

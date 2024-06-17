@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Produtos</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <nav>
+        <a href="#" class="logo">
+          <img src="assets/logo-cat-and-dog.png" alt="Logo" />Pet<strong
+            >SHOP</strong
+          >
+        </a>
+        <ul>
+          <li><a href="index.html">Página Inicial</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropbtn" tabindex="0">Produtos</a>
+            <div class="dropdown-content">
+              <a href="produtos1.html">Ração Úmida</a>
+              <a href="produtos2.html">Ração Seca</a>
+            </div>
+          </li>
+          <li><a href="serviços.html">Serviços</a></li>
+          <li class="button"><a href="cadastro.html">Cadastre-se!</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="container mt-5">
+      <h1 class="text-center mb-4">Nossos Produtos</h1>
+      <div id="productCarousel" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="assets/produto_umido1.jpg"
+              class="d-block w-100"
+              alt="Produto 1"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Ração Úmida para Gatos 85g</h5>
+              <p>R$ 8,90</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="assets/produto_umido2.png"
+              class="d-block w-100"
+              alt="Produto 2"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Ração úmida para Cachorros 100g</h5>
+              <p>R$ 4,90</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="assets/produto_umido3.png"
+              class="d-block w-100"
+              alt="Produto 3"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Ração Úmida para Gatos 85g</h5>
+              <p>R$ 10,90</p>
+            </div>
+          </div>
+        </div>
+        <a
+          class="carousel-control-prev"
+          href="#productCarousel"
+          role="button"
+          data-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Anterior</span>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#productCarousel"
+          role="button"
+          data-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Próximo</span>
+        </a>
+      </div>
+    </main>
+
+    <footer>
+      <hr />
+      <p><strong>CNPJ:</strong> 20.975.957/0001-96</p>
+      <p><strong>Contatos:</strong> (054) 98159-2249 — comercial@petshop.com</p>
+      <p>
+        <strong>Endereço:</strong> R. Gaston Dalcanalle, 638 - Centro, Caxias do
+        Sul, RS, 95098-99
+      </p>
+      <p>
+        <strong>Autor(a) do site:</strong> Sthefanie Corrêa —
+        sthefanie.a.correa@gmail.com —
+        <a href="https://github.com/sthefaniecorrea">GitHub</a>
+      </p>
+      <p>
+        Copyright 2024 © Todos os direitos reservados à Pet<strong>SHOP</strong>
+      </p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $(".carousel").carousel({
+          interval: 4000, // Tempo em milissegundos (4 segundos)
+        });
+      });
+    </script>
+  </body>
+</html>
